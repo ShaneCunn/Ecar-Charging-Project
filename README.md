@@ -4,11 +4,11 @@ We will be developing a GPS website that will make the users aware of all the E-
 can update the site to make other people aware.
 
 # Group Members:
-The group consists of:
+*Aleksandra Baranowska
 *Aishat Ayanda
 *Keith Jordan
 *Orla Donelly
 *Shane Cunningham
-*Aleksandra Baranowska
+
 
 
