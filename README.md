@@ -5,9 +5,10 @@ can update the site to make other people aware.
 
 Group Members:
 The group consists of:
-Aishat Ayanda
-Keith Jordan
-Orla Donelly
-Shane Cunningham
+*Aishat Ayanda
+*Keith Jordan
+*Orla Donelly
+*Shane Cunningham
+*Aleksandra Baranowska
 
 
