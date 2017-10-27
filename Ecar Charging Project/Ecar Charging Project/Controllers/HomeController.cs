@@ -27,6 +27,13 @@ namespace Ecar_Charging_Project.Controllers
             return View();
         }
 
+        public IActionResult test()
+        {
+            ViewData["Message"] = "Your test page.";
+
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
