@@ -28,6 +28,8 @@ namespace Ecar_Charging_Project.Controllers
         }
 
         public IActionResult test()
+        //test link, copy this  and rename to the same name as the page, see Views/Home/test.cshtml for a example
+        // to add a link go to _layout.cshtml and add a link in the <ul class="nav navbar-nav"> section 
         {
             ViewData["Message"] = "Your test page.";
 
