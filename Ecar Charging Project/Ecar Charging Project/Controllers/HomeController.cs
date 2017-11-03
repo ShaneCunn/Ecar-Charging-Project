@@ -47,5 +47,6 @@ namespace Ecar_Charging_Project.Controllers
         {
             return View();
         }
+
     }
 }
