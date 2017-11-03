@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "test";
+}
+
+<h2>Test page</h2>
+
+<img class="img-responsive" src="~/images/e-cars.jpg" alt="e car test iamge">
+
+<p>Hello from our View Template!</p>
+
+<div class="container">
+    <h1>h1 Bootstrap heading (36px)</h1>
+    <h2>h2 Bootstrap heading (30px)</h2>
+    <h3>h3 Bootstrap heading (24px)</h3>
+    <h4>h4 Bootstrap heading (18px)</h4>
+    <h5>h5 Bootstrap heading (14px)</h5>
+    <h6>h6 Bootstrap heading (12px)</h6>
+</div>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+
+<script>
+            function EcarMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(53.2707, -9.0568),
+                    zoom: 9,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+            }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOQTFiW0yjnH9zxfS1wSc5lUw9KncW6Ag&callback=EcarMap"></script>
