@@ -19,6 +19,13 @@ namespace Ecar_Charging_Project.Controllers
 
             return View();
         }
+        public IActionResult Tips()
+        {
+            ViewData["Message"] = "Energy Saving Tips.";
+
+            return View();
+        }
+
 
         public IActionResult Contact()
         {
