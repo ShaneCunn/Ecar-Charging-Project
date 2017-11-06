@@ -6,10 +6,10 @@
 </nav>
 
 @{
-    ViewData["Title"] = "Contact Us";
+    ViewData["Title"] = "CONTACT US";
 }
 
-<h2>@ViewData["Title"].</h2>
+<h2>@ViewData["Title"]</h2>
 <h3>@ViewData[""]</h3>
 
 <address>
@@ -24,27 +24,27 @@
     <strong>Marketing:</strong> <a href="orla.donnelly80@gmail.com">orla.donnelly80@gmail.com</a>
 </address>
 
-<p>We welcome feedback on any aspect of the site and we actively seek feedback on charging points around Ireland.
-    Complete the form below with any general feedback, comments or enquiries. More specific ways to contact us are detailed below.</p>
+<p>
+    We welcome feedback on any aspect of the site and we actively seek feedback on charging points around Ireland.
+    Complete the form below with any general feedback, comments or enquiries. More specific ways to contact us are detailed below.
+</p>
 
-   <body>
+   
+    <form method="POST" action="http://formspree.io/orla.donnelly80@gmail.com">
+        <p>
+            <input type="email" name="email" placeholder="Your email">
+        </p>
 
-        <form action="/action_page.php">
+        <p>
+            <textarea name="message" placeholder="Your message"></textarea>
+        </p>
 
-            Email:<br>
-            <input type="text" name="email" value="">
-            <br><br>
-            Message:<br>
-            <input type="text" name="message" value="">
-            <br><br>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+</form>
 
-            <input type="submit" value="Submit">
-            <br><br>
 
-        </form>
-
-    </body>
-           
 <p>TO ADD A NEW CHARGE POINT</p>
 <p>Go to our dedicated page to add details on a new charging point</p>
 <p>REPORT AN ISSUE WITH CHARGE POINT</p>
