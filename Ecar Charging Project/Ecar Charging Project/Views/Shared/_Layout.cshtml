@@ -9,6 +9,7 @@
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -48,6 +49,10 @@
         <hr />
         <footer>
             <p>&copy; 2017 Ecar Charging Project</p>
+            <a href="#" class="fa fa-facebook fa-2x" style="padding-right: 10px; color: darkblue"></a>
+            <a href="#" class="fa fa-twitter fa-2x" style="padding-right: 10px; color: deepskyblue"></a>
+            <a href="#" class="fa fa-youtube fa-2x" style="padding-right: 10px; color: red"></a>
+            <a href="#" class="fa fa-reddit fa-2x" style="color: orangered;"></a>
         </footer>
     </div>
 
@@ -73,5 +78,6 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>
